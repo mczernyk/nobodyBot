@@ -4,6 +4,10 @@ var jokes = [
     image: "Shop001.png"
   },
   {
+    text: "What did the buffalo say when his kid went off to college? \r\n\r\nBi-son 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "053.png"
+  },
+  {
     text: "Why does the Norway navy have barcodes on the side of their ships? \r\n\r\nSo when they come back to port they can Scandanavian 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
     image: "001.png"
   },
@@ -30,6 +34,10 @@ var jokes = [
   {
     text: "Head on over to the www.raddadsofficial.com webstore to browse the finest #dadwear on the web. Shirts, hats, accessories... you name it, we've got it 👴 #raddadsofficial #giftsfordad #fathersday #fathersdaygifts #dadhat #dadshirt #dadgear #dadstuff #fordads",
     image: "Shop002.png"
+  },
+  {
+    text: "Why is Peter Pan always flying? \r\n\r\nBecause he Neverlands 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "052.png"
   },
   {
     text: "If a child refuses to sleep during nap time, are they guilty of resisting a rest? 👴#dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
