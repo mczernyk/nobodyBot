@@ -12,7 +12,7 @@ let current = 0
 function random_from_array(jokes){
   let joke = jokes[current];
   current ++
-  if (current === jokes.length){
+  if (current === 60){
     current = 0
   }
   return joke
