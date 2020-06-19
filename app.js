@@ -8,7 +8,7 @@ var T = new Twit(config);
 
 console.log('config', config)
 
-let current = 9
+let current = 17
 function random_from_array(jokes){
   let joke = jokes[current];
   current ++
