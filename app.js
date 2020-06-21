@@ -8,14 +8,15 @@ var T = new Twit(config);
 
 console.log('config', config)
 
-let current = 17
+// let current = 17
 function random_from_array(jokes){
-  let joke = jokes[current];
-  current ++
-  if (current === 60){
-    current = 0
-  }
-  return joke
+  // let joke = jokes[current];
+  // current ++
+  // if (current === 60){
+  //   current = 0
+  // }
+  // return joke
+  return jokes[Math.floor(Math.random() * jokes.length)]
 }
 
 function upload_random_image(jokes){
