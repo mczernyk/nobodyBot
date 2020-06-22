@@ -243,6 +243,18 @@ var jokes = [
     text: "What do you call two ghosts that are in love? \r\n\r\nBoo'd Up 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
     image: "009.png"
   },
+  {
+    text: "How do you get fired from the calendar factory? \r\n\r\nYou take a day off 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "054.png"
+  },
+  {
+    text: "When does a joke become a dad joke? \r\n\r\nWhen it becomes apparent 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "055.png"
+  },
+  {
+    text: "Did you hear the one about the letter without a stamp? \r\n\r\nYou wouldn't get it 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "056.png"
+  },
 ]
 
 module.exports = jokes
