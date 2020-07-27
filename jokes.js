@@ -255,6 +255,22 @@ var jokes = [
     text: "Did you hear the one about the letter without a stamp? \r\n\r\nYou wouldn't get it 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
     image: "056.png"
   },
+  {
+    text: "Why is it so hard to get a reservation a the library? \r\n\r\nThey're always fully booked 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "057.png"
+  },
+  {
+    text: "Why should you never run in front of a car? \r\n\r\nYou'll get tired 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "058.png"
+  },
+  {
+    text: "What's the worst thing about sea sickness? \r\n\r\nIt comes in waves 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "059.png"
+  },
+  {
+    text: "What's E.T. short for? \r\n\r\nHe's got little legs 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "060.png"
+  },
 ]
 
 module.exports = jokes
