@@ -271,6 +271,22 @@ var jokes = [
     text: "What's E.T. short for? \r\n\r\nHe's got little legs 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
     image: "060.png"
   },
+  {
+    text: "What do you get when you boil a funny bone? \r\n\r\nLaughing stock 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "061.png"
+  },
+  {
+    text: "Why did the golfer bring two pairs of pants? \r\n\r\nIn case he gets a hole in one 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "062.png"
+  },
+  {
+    text: "What's the best way to watch fishing? \r\n\r\nLive stream 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "063.png"
+  },
+  {
+    text: "I could tell you a pizza joke \r\n\r\nBut it's pretty cheesy 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "064.png"
+  },
 ]
 
 module.exports = jokes

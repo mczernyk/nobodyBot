@@ -4,6 +4,9 @@ var Twit = require('twit');
 var config = require('./config.js');
 var jokes = require('./jokes.js');
 
+// to deploy:
+// git push heroku <branchname> master
+
 var T = new Twit(config);
 
 console.log('config', config)
