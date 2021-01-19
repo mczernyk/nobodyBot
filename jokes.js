@@ -287,6 +287,30 @@ var jokes = [
     text: "I could tell you a pizza joke \r\n\r\nBut it's pretty cheesy 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
     image: "064.png"
   },
+  {
+    text: "What kind of fish can you catch at the hospital? \r\n\r\nA sturgeon 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "065.png"
+  },
+  {
+    text: "How do you cancel a gym membership? \r\n\r\nGive them a too weak notice 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "066.png"
+  },
+  {
+    text: "What do you call an apology written in dots and dashes? \r\n\r\nRe-morse code 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "067.png"
+  },
+  {
+    text: "What do you call a snowman with a six pack? \r\n\r\nAn abdominal snowman 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "068.png"
+  },
+  {
+    text: "What does a nosey pepper do? \r\n\r\nIt gets jalapeno business 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "069.png"
+  },
+  {
+    text: "What do you call it when you get paid to sleep? \r\n\r\nA dream job 👴 #dadjoke #dadhumor #dadmemes #dadmeme #dadjokes #raddadsofficial",
+    image: "070.png"
+  },
 ]
 
 module.exports = jokes

@@ -5,7 +5,8 @@ var config = require('./config.js');
 var jokes = require('./jokes.js');
 
 // to deploy:
-// git push heroku <branchname> master
+// git push heroku <branchname>:master
+// heroku UN: raddadsofficial@gmail.com
 
 var T = new Twit(config);
 
@@ -27,8 +28,8 @@ function upload_random_image(jokes){
   var joke = random_from_array(jokes);
   var joke_path = path.join( __dirname, '/images/' + joke.image)
   var joke_text = joke.text
-  console.log('jokePAth', joke_path)
-  console.log('jokeTExt', joke_text)
+  // console.log('jokePAth', joke_path)
+  // console.log('jokeTExt', joke_text)
   var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
 
   console.log('Uploading an image...');
@@ -72,6 +73,6 @@ fs.readdir(__dirname + '/images', function(err, files) {
 
     setInterval(function(){
       upload_random_image(images);
-    }, 1000 * 60 * 60 * 6);
+    }, 1000 * 60 * 60 * 8);
   }
 });
