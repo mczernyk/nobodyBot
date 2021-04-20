@@ -13,14 +13,26 @@ var T = new Twit(config);
 console.log('config', config)
 
 // let current = 17
+let usedJokes = []
 function random_from_array(jokes){
+  let joke = jokes[Math.floor(Math.random() * jokes.length)]
+  if (!usedJokes.includes(joke)){
+    usedJokes.push(joke)
+    return joke
+  } else {
+    if (usedJokes.length === jokes.length){
+      usedJokes = []
+    }
+    random_from_array(jokes)
+  }
+
   // let joke = jokes[current];
   // current ++
   // if (current === 60){
   //   current = 0
   // }
   // return joke
-  return jokes[Math.floor(Math.random() * jokes.length)]
+  // return jokes[Math.floor(Math.random() * jokes.length)]
 }
 
 function upload_random_image(jokes){
