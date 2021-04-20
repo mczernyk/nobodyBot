@@ -16,8 +16,8 @@ console.log('config', config)
 let usedJokes = []
 function random_from_array(jokes){
   let joke = jokes[Math.floor(Math.random() * jokes.length)]
-  if (!usedJokes.includes(joke)){
-    usedJokes.push(joke)
+  if (!usedJokes.includes(joke.number)){
+    usedJokes.push(joke.number)
     return joke
   } else {
     if (usedJokes.length === jokes.length){
