@@ -12,7 +12,6 @@ var T = new Twit(config);
 
 console.log('config', config)
 
-// let current = 17
 let usedJokes = []
 function random_from_array(jokes){
   let joke = jokes[Math.floor(Math.random() * jokes.length)]
@@ -25,14 +24,6 @@ function random_from_array(jokes){
     }
     random_from_array(jokes)
   }
-
-  // let joke = jokes[current];
-  // current ++
-  // if (current === 60){
-  //   current = 0
-  // }
-  // return joke
-  // return jokes[Math.floor(Math.random() * jokes.length)]
 }
 
 function upload_random_image(jokes){
@@ -40,8 +31,6 @@ function upload_random_image(jokes){
   var joke = random_from_array(jokes);
   var joke_path = path.join( __dirname, '/images/' + joke.image)
   var joke_text = joke.text
-  // console.log('jokePAth', joke_path)
-  // console.log('jokeTExt', joke_text)
   var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
 
   console.log('Uploading an image...');
