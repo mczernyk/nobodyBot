@@ -2,7 +2,9 @@ var fs = require('fs');
 var path = require('path');
 var Twit = require('twit');
 var config = require('./config.js');
+var cron = require('node-cron');
 var jokes = require('./jokes.js');
+
 
 // to deploy:
 // git push heroku <branchname>:master
@@ -13,6 +15,23 @@ var T = new Twit(config);
 console.log('config', config)
 
 let usedJokes = []
+
+let imagesGM = [
+  '01.png',
+  '02.png',
+  '03.png',
+  '04.png',
+  '05.png',
+  '06.png',
+  '07.png',
+  '08.png',
+  '09.png',
+  '10.png',
+  '11.png',
+  '12.png',
+  '13.png',
+  '14.png',
+]
 
 let imagesArray = [
   '01.png',
@@ -81,6 +100,8 @@ let imagesArray = [
   '64.png',
 ]
 
+
+
 function random_from_array(jokes){
   let joke = jokes[Math.floor(Math.random() * jokes.length)]
   if (!usedJokes.includes(joke.number)){
@@ -132,6 +153,43 @@ function upload_random_image(jokes){
   });
 }
 
+function upload_gm_image(){
+  let image = imagesGM[Math.floor(Math.random() * imagesGM.length)]
+
+  console.log('Opening an image...');
+  var joke_path = path.join( __dirname, '/imagesGM/' + image)
+  var joke_text = "good morning 🤝"
+  var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
+
+  console.log('Uploading an image...');
+
+  T.post('media/upload', { media_data: b64content }, function (err, data, response) {
+    if (err){
+      console.log('ERROR:');
+      console.log(err);
+    }
+    else{
+      console.log('Image uploaded!');
+      console.log('Now tweeting it...');
+
+      T.post('statuses/update', {
+        status: joke_text,
+        media_ids: new Array(data.media_id_string)
+      },
+        function(err, data, response) {
+          if (err){
+            console.log('ERROR:');
+            console.log(err);
+          }
+          else{
+            console.log('Posted an image!');
+          }
+        }
+      );
+    }
+  });
+}
+
 fs.readdir(__dirname + '/images', function(err, files) {
   if (err){
     console.log(err);
@@ -145,5 +203,12 @@ fs.readdir(__dirname + '/images', function(err, files) {
     setInterval(function(){
       upload_random_image(images);
     }, 1000 * 60 * 60 * 6);
+
+    cron.schedule('0 10 * * *', () => {
+      upload_gm_image()
+    }, {
+      scheduled: true,
+      timezone: "America/New_York"
+    });
   }
 });
