@@ -6,13 +6,81 @@ var jokes = require('./jokes.js');
 
 // to deploy:
 // git push heroku <branchname>:master
-// heroku UN: raddadsofficial@gmail.com
+// heroku UN: raddadsbottwitter@gmail.com
 
 var T = new Twit(config);
 
 console.log('config', config)
 
 let usedJokes = []
+
+let imagesArray = [
+  '01.png',
+  '02.png',
+  '03.png',
+  '04.png',
+  '05.png',
+  '06.png',
+  '07.png',
+  '08.png',
+  '09.png',
+  '10.png',
+  '11.png',
+  '12.png',
+  '13.png',
+  '14.png',
+  '15.png',
+  '16.png',
+  '17.png',
+  '18.png',
+  '19.png',
+  '20.png',
+  '21.png',
+  '22.png',
+  '23.png',
+  '24.png',
+  '25.png',
+  '26.png',
+  '27.png',
+  '28.png',
+  '29.png',
+  '30.png',
+  '31.png',
+  '32.png',
+  '33.png',
+  '34.png',
+  '35.png',
+  '36.png',
+  '37.png',
+  '38.png',
+  '39.png',
+  '40.png',
+  '41.png',
+  '42.png',
+  '43.png',
+  '44.png',
+  '45.png',
+  '46.png',
+  '47.png',
+  '48.png',
+  '49.png',
+  '50.png',
+  '51.png',
+  '52.png',
+  '53.png',
+  '54.png',
+  '55.png',
+  '56.png',
+  '57.png',
+  '58.png',
+  '59.png',
+  '60.png',
+  '61.png',
+  '62.png',
+  '63.png',
+  '64.png',
+]
+
 function random_from_array(jokes){
   let joke = jokes[Math.floor(Math.random() * jokes.length)]
   if (!usedJokes.includes(joke.number)){
@@ -27,9 +95,11 @@ function random_from_array(jokes){
 }
 
 function upload_random_image(jokes){
+  let image = imagesArray[Math.floor(Math.random() * imagesArray.length)]
+
   console.log('Opening an image...');
   var joke = random_from_array(jokes);
-  var joke_path = path.join( __dirname, '/images/' + joke.image)
+  var joke_path = path.join( __dirname, '/images/' + image)
   var joke_text = joke.text
   var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
 
@@ -74,7 +144,6 @@ fs.readdir(__dirname + '/images', function(err, files) {
 
     setInterval(function(){
       upload_random_image(images);
-    }, 1000 * 60 * 60 * 8);
-
+    }, 1000 * 60 * 60 * 6);
   }
 });
