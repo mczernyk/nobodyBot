@@ -158,7 +158,7 @@ function upload_gm_image(){
 
   console.log('Opening an image...');
   var joke_path = path.join( __dirname, '/imagesGM/' + image)
-  var joke_text = "good morning 🤝"
+  var joke_text = "🤝 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT"
   var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
 
   console.log('Uploading an image...');
@@ -204,7 +204,7 @@ fs.readdir(__dirname + '/images', function(err, files) {
       upload_random_image(images);
     }, 1000 * 60 * 60 * 6);
 
-    cron.schedule('0 10 * * *', () => {
+    cron.schedule('6 9 * * *', () => {
       upload_gm_image()
     }, {
       scheduled: true,
