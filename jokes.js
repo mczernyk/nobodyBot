@@ -279,6 +279,10 @@ var jokes = [
     text: "What do you call it when you get paid to sleep? \r\n\r\nA dream job 👴 #dadjoke #dadhumor #dadjokes #raddadsnft #solana #solanaNFT #solanaNFTS",
     number: 78
   },
+  {
+    text: "Did you hear about the zoo with a croissant in a cage? \r\n\r\nIt was bread in captivity 👴 #dadjoke #dadhumor #dadjokes #raddadsnft #solana #solanaNFT #solanaNFTS",
+    number: 79
+  }
 ]
 
 module.exports = jokes
