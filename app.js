@@ -8,6 +8,7 @@ var jokes = require('./jokes.js');
 
 // to deploy:
 // git push heroku <branchname>:master
+
 // heroku UN: raddadsbottwitter@gmail.com
 
 var T = new Twit(config);
@@ -158,7 +159,7 @@ function upload_gm_image(){
 
   console.log('Opening an image...');
   var joke_path = path.join( __dirname, '/imagesGM/' + image)
-  var joke_text = "gm 🤝 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT"
+  var joke_text = "gm 🤝 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS"
   var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
 
   console.log('Uploading an image...');
