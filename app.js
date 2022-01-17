@@ -32,6 +32,12 @@ let imagesGM = [
   '12.png',
   '13.png',
   '14.png',
+  '15.png',
+  '16.png',
+  '17.png',
+  '18.png',
+  '19.png',
+  '20.png',
 ]
 
 let imagesArray = [
@@ -203,9 +209,9 @@ fs.readdir(__dirname + '/images', function(err, files) {
 
     setInterval(function(){
       upload_random_image(images);
-    }, 1000 * 60 * 60 * 6);
+    }, 1000 * 60 * 60 * 8);
 
-    cron.schedule('6 9 * * *', () => {
+    cron.schedule('9 6 * * *', () => {
       upload_gm_image()
     }, {
       scheduled: true,
