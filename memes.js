@@ -1,73 +1,88 @@
 var memes = [
   {
     text: "you're hired 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
-
+    image: "01.png",
     number: 1
   },
   {
     text: "read em and weep 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
-
+    image: "02.png",
     number: 2
   },
   {
     text: "the original GPS 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "03.png",
     number: 3
   },
   {
     text: "do the math 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "04.png",
     number: 4
   },
   {
-    text: "I told my doctor that I broke my arm in two places. \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "game on 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "05.png",
     number: 5
   },
   {
-    text: "Did you hear about the Italian chef that died? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "just what the doctor ordered 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "06.png",
     number: 6
   },
   {
-    text: "Did you know alligators can grow up to 15 feet? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "this is not a drill 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "07.png",
     number: 7
   },
   {
     text: "some people just don't get it 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "08.png",
     number: 8
   },
   {
-    text: "Why is Peter Pan always flying? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "stuntin' like my daddy 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "09.png",
+    number: 9
+  },
+  {
+    text: "don't 'sleep' on this one 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "10.png",
     number: 10
   },
   {
-    text: "If a child refuses to sleep during nap time, are they guilty of resisting a rest? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "'time' for a dad joke 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "11.png",
     number: 11
   },
   {
-    text: "Whats Fast and the Furious 10 going to be called? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "you can't win em all 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "12.png",
     number: 12
   },
   {
-    text: "What kind of pants do ghosts wear? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "problem solved 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "13.png",
     number: 13
   },
   {
-    text: "What kind of pants do ghosts wear? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "clean humor 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "14.png",
     number: 14
   },
   {
-    text: "What kind of pants do ghosts wear? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "out of sight, out of ming 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "15.png",
     number: 15
   },
   {
-    text: "What kind of pants do ghosts wear? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
-    number: 16
-  },
-  {
-    text: "What kind of pants do ghosts wear? \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "this is a 'strong' meme from our fans 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "17.png",
     number: 17
   },
   {
     text: "You snooze, you lose 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
-    number: 18
+    image: "16.png",
+    number: 16
   }
 ]
 

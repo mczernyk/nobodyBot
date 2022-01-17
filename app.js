@@ -4,6 +4,8 @@ var Twit = require('twit');
 var config = require('./config.js');
 var cron = require('node-cron');
 var jokes = require('./jokes.js');
+var memes = require('./memes.js');
+
 
 
 // to deploy:
@@ -160,6 +162,56 @@ function upload_random_image(jokes){
   });
 }
 
+let usedMemes = []
+function random_from_array_meme(memes){
+  let meme = memes[Math.floor(Math.random() * memes.length)]
+  if (!usedMemes.includes(meme.number)){
+    usedMemes.push(meme.number)
+    return meme
+  } else {
+    if (usedMemes.length === memes.length){
+      usedMemes = []
+    }
+    random_from_array_meme(memes)
+  }
+}
+
+function upload_random_image_meme(memes){
+  console.log('Opening an image...');
+  var meme = random_from_array_meme(memes);
+  var joke_path = path.join( __dirname, '/images/' + meme.image)
+  var joke_text = meme.text
+  var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
+
+  console.log('Uploading an image...');
+
+  T.post('media/upload', { media_data: b64content }, function (err, data, response) {
+    if (err){
+      console.log('ERROR:');
+      console.log(err);
+    }
+    else{
+      console.log('Image uploaded!');
+      console.log('Now tweeting it...');
+
+      T.post('statuses/update', {
+        status: joke_text,
+        media_ids: new Array(data.media_id_string)
+      },
+        function(err, data, response) {
+          if (err){
+            console.log('ERROR:');
+            console.log(err);
+          }
+          else{
+            console.log('Posted an image!');
+          }
+        }
+      );
+    }
+  });
+}
+
 function upload_gm_image(){
   let image = imagesGM[Math.floor(Math.random() * imagesGM.length)]
 
@@ -203,13 +255,24 @@ fs.readdir(__dirname + '/images', function(err, files) {
   }
   else{
     var images = [];
+    var memeImages = []
+
     jokes.forEach(function(f) {
       images.push(f);
     });
 
+    memes.forEach(function(f) {
+      memeImages.push(f);
+    });
+
+
     setInterval(function(){
       upload_random_image(images);
     }, 1000 * 60 * 60 * 8);
+
+    setInterval(function(){
+      upload_random_image_meme(memeImages);
+    }, 1000 * 60 * 60 * 5);
 
     cron.schedule('9 6 * * *', () => {
       upload_gm_image()
