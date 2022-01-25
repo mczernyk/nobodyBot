@@ -270,9 +270,9 @@ fs.readdir(__dirname + '/images', function(err, files) {
       upload_random_image(images);
     }, 1000 * 60 * 60 * 8);
 
-    setInterval(function(){
-      upload_random_image_meme(memeImages);
-    }, 1000 * 60 * 60 * 5);
+    // setInterval(function(){
+    //   upload_random_image_meme(memeImages);
+    // }, 1000 * 60 * 60 * 5);
 
     cron.schedule('9 6 * * *', () => {
       upload_gm_image()
