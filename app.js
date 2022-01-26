@@ -53,7 +53,8 @@ let imagesGM = [
   '31.png',
   '32.png',
   '33.png',
-  '34.png'
+  '34.png',
+  '35.png'
 ]
 
 let imagesArray = [
