@@ -60,29 +60,29 @@ var memes = [
     number: 12
   },
   {
-    text: "problem solved 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "a meme from our community: problem solved 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
     image: "13.png",
     number: 13
   },
   {
-    text: "clean humor 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "a meme from our community: clean humor 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
     image: "14.png",
     number: 14
   },
   {
-    text: "out of sight, out of ming 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    text: "a meme from our community: out of sight, out of mind 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
     image: "15.png",
     number: 15
-  },
-  {
-    text: "this is a 'strong' meme from our fans 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
-    image: "17.png",
-    number: 17
   },
   {
     text: "You snooze, you lose 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
     image: "16.png",
     number: 16
+  },
+  {
+    text: "a meme from our community: this is a 'strong' one 👴 \r\n\r\n#gm #raddadsnft #solana #SolanaNFTs #SolanaNFT #NFT #NFTS  #dadmemes #dadmeme #dadhumor #dadjokes #dadjoke",
+    image: "17.png",
+    number: 17
   }
 ]
 
