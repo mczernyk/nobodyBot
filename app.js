@@ -194,7 +194,7 @@ function random_from_array_meme(memes){
 function upload_random_image_meme(memes){
   console.log('Opening an image...');
   var meme = random_from_array_meme(memes);
-  var joke_path = path.join( __dirname, '/images/' + meme.image)
+  var joke_path = path.join( __dirname, '/memes/' + meme.image)
   var joke_text = meme.text
   var b64content = fs.readFileSync(joke_path, { encoding: 'base64' });
 
