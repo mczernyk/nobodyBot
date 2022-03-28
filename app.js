@@ -54,7 +54,19 @@ let imagesGM = [
   '32.png',
   '33.png',
   '34.png',
-  '35.png'
+  '35.png',
+  '36.png',
+  '37.png',
+  '38.png',
+  '39.png',
+  '40.png',
+  '41.png',
+  '42.png',
+  '43.png',
+  '44.png',
+  '45.png',
+  '46.png',
+  '47.png'
 ]
 
 let imagesArray = [
@@ -122,6 +134,23 @@ let imagesArray = [
   '62.png',
   '63.png',
   '64.png',
+  '65.png',
+  '66.png',
+  '67.png',
+  '68.png',
+  '69.png',
+  '70.png',
+  '71.png',
+  '72.png',
+  '73.png',
+  '74.png',
+  '75.png',
+  '76.png',
+  '77.png',
+  '78.png',
+  '79.png',
+  '80.png',
+  '81.png'
 ]
 
 
