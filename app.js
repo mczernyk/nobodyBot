@@ -19,11 +19,11 @@ console.log('config', config)
 let usedProducts = []
 function random_from_array_product(products){
   let product = products[Math.floor(Math.random() * products.length)]
-  if (!usedProduct.includes(product.number)){
-    usedProduct.push(product.number)
+  if (!usedProducts.includes(product.number)){
+    usedProducts.push(product.number)
     return product
   } else {
-    if (usedProduct.length === products.length){
+    if (usedProducts.length === products.length){
       usedProducts = []
     }
     random_from_array_product(products)
@@ -134,7 +134,7 @@ fs.readdir(__dirname + '/products', function(err, files) {
       scheduled: true,
       timezone: "America/New_York"
     });
-    cron.schedule('10 00 * * *', () => {
+    cron.schedule('36 00 * * *', () => {
       upload_random_image_product(productImages);
     }, {
       scheduled: true,
