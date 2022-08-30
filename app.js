@@ -7,9 +7,9 @@ var products = require('./products.js');
 
 
 // to deploy:
-// git push heroku <branchname>:master
+// git push heroku master
 
-// heroku UN: raddadsbottwitter@gmail.com
+// heroku UN: nobodyclothingnyc@gmail.com
 
 var T = new Twit(config);
 
