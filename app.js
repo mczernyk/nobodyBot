@@ -101,13 +101,6 @@ fs.readdir(__dirname + '/products', function(err, files) {
       timezone: "America/New_York"
     });
 
-    cron.schedule('00 05 * * *', () => {
-      upload_random_image_product(productImages);
-    }, {
-      scheduled: true,
-      timezone: "America/New_York"
-    });
-
     cron.schedule('00 09 * * *', () => {
       upload_random_image_product(productImages);
     }, {
@@ -115,26 +108,7 @@ fs.readdir(__dirname + '/products', function(err, files) {
       timezone: "America/New_York"
     });
 
-    cron.schedule('00 13 * * *', () => {
-      upload_random_image_product(productImages);
-    }, {
-      scheduled: true,
-      timezone: "America/New_York"
-    });
-
     cron.schedule('00 17 * * *', () => {
-      upload_random_image_product(productImages);
-    }, {
-      scheduled: true,
-      timezone: "America/New_York"
-    });
-    cron.schedule('00 21 * * *', () => {
-      upload_random_image_product(productImages);
-    }, {
-      scheduled: true,
-      timezone: "America/New_York"
-    });
-    cron.schedule('36 00 * * *', () => {
       upload_random_image_product(productImages);
     }, {
       scheduled: true,
