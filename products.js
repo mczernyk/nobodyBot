@@ -393,7 +393,80 @@ var products = [
     text: "trust tee - yellow \r\n\r\nhttps://www.nobody.clothing/product/trust-tee\r\n\r\n♡ nobody loves you ♡",
     image: ["trustYB.jpg", 'trustYF.jpg'],
     number: 79
-  }
+  },
+  {
+    text: "mind tee - black \r\n\r\nhttps://www.nobody.clothing/product/mind-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["mindBlB.jpg", 'mindBlF.jpg'],
+    number: 80
+  },
+  {
+    text: "mind tee - berry \r\n\r\nhttps://www.nobody.clothing/product/mind-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["mindBeB.jpg", 'mindBeF.jpg'],
+    number: 81
+  },
+  {
+    text: "mind tee - navy \r\n\r\nhttps://www.nobody.clothing/product/mind-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["mindNB.jpg", 'mindNF.jpg'],
+    number: 82
+  },
+  {
+    text: "mind tee - purple \r\n\r\nhttps://www.nobody.clothing/product/mind-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["mindPB.jpg", 'mindPF.jpg'],
+    number: 83
+  },
+  {
+    text: "mind tee - white \r\n\r\nhttps://www.nobody.clothing/product/mind-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["mindWB.jpg", 'mindWF.jpg'],
+    number: 84
+  },
+  {
+    text: "mind tee - butter \r\n\r\nhttps://www.nobody.clothing/product/mind-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["mindYB.jpg", 'mindYF.jpg'],
+    number: 85
+  },
+  {
+    text: "smile crop top - black \r\n\r\nhttps://www.nobody.clothing/product/smile-crop-top\r\n\r\n♡ nobody loves you ♡",
+    image: ["smile_CropBlB.jpg", 'smile_CropBlF.jpg'],
+    number: 86
+  },
+  {
+    text: "smile crop top - white \r\n\r\nhttps://www.nobody.clothing/product/smile-crop-top\r\n\r\n♡ nobody loves you ♡",
+    image: ["smile_CropWB.jpg", 'smile_CropWF.jpg'],
+    number: 87
+  },
+  {
+    text: "smile tee - berry \r\n\r\nhttps://www.nobody.clothing/product/smile-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["smileBeB.jpg", 'smileBeF.jpg'],
+    number: 88
+  },
+  {
+    text: "smile tee - black \r\n\r\nhttps://www.nobody.clothing/product/smile-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["smileBlB.jpg", 'smileBlF.jpg'],
+    number: 89
+  },
+  {
+    text: "smile tee - navy \r\n\r\nhttps://www.nobody.clothing/product/smile-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["smileNB.jpg", 'smileNF.jpg'],
+    number: 90
+  },
+  {
+    text: "smile tee - purple \r\n\r\nhttps://www.nobody.clothing/product/smile-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["smilePB.jpg", 'smilePF.jpg'],
+    number: 91
+  },
+  {
+    text: "smile tee - white \r\n\r\nhttps://www.nobody.clothing/product/smile-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["smileWB.jpg", 'smilWF.jpg'],
+    number: 92
+  },
+  {
+    text: "smile tee - butter \r\n\r\nhttps://www.nobody.clothing/product/smile-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["smileYB.jpg", 'smileYF.jpg'],
+    number: 90
+  },
+
+
+
 ]
 
 module.exports = products

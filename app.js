@@ -16,7 +16,7 @@ var T = new Twit(config);
 console.log('config', config)
 
 
-let usedProducts = []
+let usedProducts = [9, 37, 69, 40, 66, 18, 4, 65, 48, 53, 16, 2, 12]
 function random_from_array_product(products){
   let product = products[Math.floor(Math.random() * products.length)]
   if (!usedProducts.includes(product.number)){
