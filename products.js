@@ -462,7 +462,37 @@ var products = [
   {
     text: "smile tee - butter \r\n\r\nhttps://www.nobody.clothing/product/smile-tee\r\n\r\n♡ nobody loves you ♡",
     image: ["smileYB.jpg", 'smileYF.jpg'],
-    number: 90
+    number: 93
+  },
+  {
+    text: "self tee - berry \r\n\r\nhttps://www.nobody.clothing/product/self-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["selfBeB.jpg", 'selfBeF.jpg'],
+    number: 94
+  },
+  {
+    text: "self tee - black \r\n\r\nhttps://www.nobody.clothing/product/self-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["selfBlB.jpg", 'selfBlF.jpg'],
+    number: 95
+  },
+  {
+    text: "self tee - navy \r\n\r\nhttps://www.nobody.clothing/product/self-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["selfNB.jpg", 'selfNF.jpg'],
+    number: 96
+  },
+  {
+    text: "self tee - purple \r\n\r\nhttps://www.nobody.clothing/product/self-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["selfPB.jpg", 'selfPF.jpg'],
+    number: 97
+  },
+  {
+    text: "self tee - white \r\n\r\nhttps://www.nobody.clothing/product/self-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["selfWB.jpg", 'selfWF.jpg'],
+    number: 98
+  },
+  {
+    text: "self tee - butter \r\n\r\nhttps://www.nobody.clothing/product/self-tee\r\n\r\n♡ nobody loves you ♡",
+    image: ["selfYB.jpg", 'selfYF.jpg'],
+    number: 99
   },
 
 
