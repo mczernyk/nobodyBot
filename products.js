@@ -494,6 +494,31 @@ var products = [
     image: ["selfYB.jpg", 'selfYF.jpg'],
     number: 99
   },
+  {
+    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
+    image: ["bucketSmileB.jpg", 'bucketSmileBl.jpg'],
+    number: 100
+  },
+  {
+    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
+    image: ["bucketSmileDenimB.jpg", 'bucketSmileDenimBl.jpg'],
+    number: 101
+  },
+  {
+    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
+    image: ["bucketSmileDenimMulti.jpg", 'bucketSmileDenimMulti01.jpg'],
+    number: 102
+  },
+  {
+    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
+    image: ["bucketSmileDenimN.jpg", 'bucketSmileW.jpg'],
+    number: 103
+  },
+  {
+    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
+    image: ["bucketSmileGrn.jpg", 'bucketSmileT.jpg'],
+    number: 104
+  }
 
 
 
