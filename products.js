@@ -495,30 +495,21 @@ var products = [
     number: 99
   },
   {
-    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
-    image: ["bucketSmileB.jpg", 'bucketSmileBl.jpg'],
+    text: "denim jacket - black \r\n\r\nhttps://www.nobody.clothing/product/embroidered-denim-jacket\r\n\r\n♡ nobody loves you ♡",
+    image: ["jacketBB.jpg", 'jacketBF.jpg'],
     number: 100
   },
   {
-    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
-    image: ["bucketSmileDenimB.jpg", 'bucketSmileDenimBl.jpg'],
+    text: "denim jacket - navy \r\n\r\nhttps://www.nobody.clothing/product/embroidered-denim-jacket\r\n\r\n♡ nobody loves you ♡",
+    image: ["jacketNB.jpg", 'jacketNF.jpg'],
     number: 101
   },
   {
-    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
-    image: ["bucketSmileDenimMulti.jpg", 'bucketSmileDenimMulti01.jpg'],
+    text: "denim jacket - white \r\n\r\nhttps://www.nobody.clothing/product/embroidered-denim-jacket\r\n\r\n♡ nobody loves you ♡",
+    image: ["jacketWB.jpg", 'jacketWF.jpg'],
     number: 102
   },
-  {
-    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
-    image: ["bucketSmileDenimN.jpg", 'bucketSmileW.jpg'],
-    number: 103
-  },
-  {
-    text: "embroidered nobody logo bucket hat \r\n\r\nhttps://www.nobody.clothing/product/embroidered-bucket-hat-smile \r\n\r\n♡ nobody loves you ♡",
-    image: ["bucketSmileGrn.jpg", 'bucketSmileT.jpg'],
-    number: 104
-  }
+
 
 
 
