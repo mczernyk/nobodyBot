@@ -510,32 +510,32 @@ var products = [
     number: 102
   },
   {
-    text: "pixel tee - berry \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    text: "pixelady tee - berry \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
     image: ["pixelBeB.png", 'pixelBeF.png'],
     number: 103
   },
   {
-    text: "pixel tee - black \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    text: "pixelady tee - black \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
     image: ["pixelBlB.png", 'pixelBlF.png'],
     number: 104
   },
   {
-    text: "pixel tee - navy \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    text: "pixelady tee - navy \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
     image: ["pixelNB.png", 'pixelNF.png'],
     number: 105
   },
   {
-    text: "pixel tee - white \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    text: "pixelady tee - white \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
     image: ["pixelWB.png", 'pixelWF.png'],
     number: 106
   },
   {
-    text: "pixel tee - butter \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    text: "pixelady tee - butter \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
     image: ["pixelYB.png", 'pixelYF.png'],
     number: 107
   },
   {
-    text: "pixel tee - purple \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    text: "pixelady tee - purple \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
     image: ["pixelPB.png", 'pixelPF.png'],
     number: 108
   },
