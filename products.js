@@ -508,11 +508,7 @@ var products = [
     text: "denim jacket - white \r\n\r\nhttps://www.nobody.clothing/product/embroidered-denim-jacket\r\n\r\n♡ nobody loves you ♡",
     image: ["jacketWB.jpg", 'jacketWF.jpg'],
     number: 102
-  },
-
-
-
-
+  }
 ]
 
 module.exports = products

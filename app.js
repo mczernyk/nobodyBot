@@ -114,5 +114,11 @@ fs.readdir(__dirname + '/products', function(err, files) {
       scheduled: true,
       timezone: "America/New_York"
     });
+    cron.schedule('55 23 * * *', () => {
+      upload_random_image_product(productImages);
+    }, {
+      scheduled: true,
+      timezone: "America/New_York"
+    });
   }
 });
