@@ -508,6 +508,66 @@ var products = [
     text: "denim jacket - white \r\n\r\nhttps://www.nobody.clothing/product/embroidered-denim-jacket\r\n\r\n♡ nobody loves you ♡",
     image: ["jacketWB.jpg", 'jacketWF.jpg'],
     number: 102
+  },
+  {
+    text: "pixel tee - berry \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["pixelBeB.png", 'pixelBeF.png'],
+    number: 103
+  },
+  {
+    text: "pixel tee - black \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["pixelBlB.png", 'pixelBlF.png'],
+    number: 104
+  },
+  {
+    text: "pixel tee - navy \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["pixelNB.png", 'pixelNF.png'],
+    number: 105
+  },
+  {
+    text: "pixel tee - white \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["pixelWB.png", 'pixelWF.png'],
+    number: 106
+  },
+  {
+    text: "pixel tee - butter \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["pixelYB.png", 'pixelYF.png'],
+    number: 107
+  },
+  {
+    text: "pixel tee - purple \r\n\r\nconnect your wallet and make your own 1/1 nobody shirt \r\n\r\nhttps://www.nobody.clothing/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["pixelPB.png", 'pixelPF.png'],
+    number: 108
+  },
+  {
+    text: "radbro tee - berry \r\n\r\nhttps://www.nobody.clothing/product/radbro/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["radbroBeB.png", 'radbroBeF.png'],
+    number: 109
+  },
+  {
+    text: "radbro tee - black \r\n\r\nhttps://www.nobody.clothing/product/radbro/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["radbroBlB.png", 'radbroBlF.png'],
+    number: 110
+  },
+  {
+    text: "radbro tee - white \r\n\r\nhttps://www.nobody.clothing/product/radbro/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["radbroWB.png", 'radbroWF.png'],
+    number: 111
+  },
+  {
+    text: "radbro tee - navy \r\n\r\nhttps://www.nobody.clothing/product/radbro/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["radbroNB.png", 'radbroNF.png'],
+    number: 112
+  },
+  {
+    text: "radbro tee - purple \r\n\r\nhttps://www.nobody.clothing/product/radbro/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["radbroPB.png", 'radbroPF.png'],
+    number: 113
+  },
+  {
+    text: "radbro tee - butter \r\n\r\nhttps://www.nobody.clothing/product/radbro/ \r\n\r\n♡ nobody loves you ♡",
+    image: ["radbroYB.png", 'radbroYF.png'],
+    number: 114
   }
 ]
 
