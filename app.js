@@ -26,6 +26,7 @@ function random_from_array_product(products){
     if (usedProducts.length === products.length){
       usedProducts = []
     }
+    console.log('hit error or dupe')
     random_from_array_product(products)
   }
 }
