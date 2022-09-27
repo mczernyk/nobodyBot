@@ -16,7 +16,7 @@ var T = new Twit(config);
 console.log('config', config)
 
 
-let usedProducts = [9, 37, 69, 40, 66, 18, 4, 65, 48, 53, 16, 2, 12]
+let usedProducts = []
 function random_from_array_product(products){
   let product = products[Math.floor(Math.random() * products.length)]
   if (!usedProducts.includes(product.number)){
@@ -32,6 +32,7 @@ function random_from_array_product(products){
 
 function upload_random_image_product(products){
   console.log('Opening an image...');
+
   var product = random_from_array_product(products);
 
   var prod_path = path.join( __dirname, '/products/' + product.image[0])
@@ -49,7 +50,7 @@ function upload_random_image_product(products){
       console.log("There's an issue uploading the left image.");
       console.log(err);
     }
-    else{
+    else {
       console.log('Left image uploaded!');
       console.log('Now tweeting it...');
       let leftID = data.media_id_string
