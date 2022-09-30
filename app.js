@@ -19,14 +19,20 @@ console.log('config', config)
 let usedProducts = []
 function random_from_array_product(products){
   let product = products[Math.floor(Math.random() * products.length)]
+
   if (!usedProducts.includes(product.number)){
     usedProducts.push(product.number)
+
+    console.log('used prod', usedProducts)
+    console.log('product', product)
+
     return product
   } else {
     if (usedProducts.length === products.length){
       usedProducts = []
     }
     console.log('hit error or dupe')
+
     random_from_array_product(products)
   }
 }
@@ -40,6 +46,7 @@ function upload_random_image_product(products){
   var prod_path1 = path.join( __dirname, '/products/' + product.image[1])
 
   var prod_text = product.text
+
   var b64content = fs.readFileSync(prod_path, { encoding: 'base64' });
   var b64content1 = fs.readFileSync(prod_path1, { encoding: 'base64' });
 
@@ -95,6 +102,7 @@ fs.readdir(__dirname + '/products', function(err, files) {
     products.forEach(function(f) {
       productImages.push(f);
     });
+    console.log('prod images', productImages)
 
     cron.schedule('00 01 * * *', () => {
       upload_random_image_product(productImages);
