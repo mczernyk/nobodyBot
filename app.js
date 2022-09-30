@@ -102,7 +102,6 @@ fs.readdir(__dirname + '/products', function(err, files) {
     products.forEach(function(f) {
       productImages.push(f);
     });
-    console.log('prod images', productImages)
 
     cron.schedule('00 01 * * *', () => {
       upload_random_image_product(productImages);
