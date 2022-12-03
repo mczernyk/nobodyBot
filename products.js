@@ -570,32 +570,32 @@ var products = [
     number: 114
   },
   {
-    text: "planet tee - berry \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\n♡ nobody loves you ♡",
+    text: "planet tee - berry \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\ndm for custom sigil\r\n\r\n♡ nobody loves you ♡",
     image: ["urbitBeB.jpg", 'urbitBeF.jpg'],
     number: 115
   },
   {
-    text: "planet tee - black \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\n♡ nobody loves you ♡",
+    text: "planet tee - black \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\ndm for custom sigil\r\n\r\n♡ nobody loves you ♡",
     image: ["urbitBlB.jpg", 'urbitBlF.jpg'],
     number: 116
   },
   {
-    text: "planet tee - navy \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\n♡ nobody loves you ♡",
+    text: "planet tee - navy \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\ndm for custom sigil\r\n\r\n♡ nobody loves you ♡",
     image: ["urbitNB.jpg", 'urbitNF.jpg'],
     number: 117
   },
   {
-    text: "planet tee - purple \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\n♡ nobody loves you ♡",
+    text: "planet tee - purple \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\ndm for custom sigil\r\n\r\n♡ nobody loves you ♡",
     image: ["urbitPB.jpg", 'urbitPF.jpg'],
     number: 118
   },
   {
-    text: "planet tee - white \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\n♡ nobody loves you ♡",
+    text: "planet tee - white \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\ndm for custom sigil\r\n\r\n♡ nobody loves you ♡",
     image: ["urbitWB.jpg", 'urbitWF.jpg'],
     number: 119
   },
   {
-    text: "planet tee - butter \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\n♡ nobody loves you ♡",
+    text: "planet tee - butter \r\n\r\nhttps://www.nobody.clothing/product/planet-tee/ \r\n\r\ndm for custom sigil\r\n\r\n♡ nobody loves you ♡",
     image: ["urbitYB.jpg", 'urbitYF.jpg'],
     number: 120
   },
@@ -949,6 +949,7 @@ var products = [
     image: ['passengerYB.jpg', "vacationYF.jpg"],
     number: 190
   }
+
 ]
 
 module.exports = products
