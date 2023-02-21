@@ -103,28 +103,28 @@ fs.readdir(__dirname + '/products', function(err, files) {
       productImages.push(f);
     });
 
-    cron.schedule('00 01 * * *', () => {
+    // cron.schedule('00 01 * * *', () => {
+    //   upload_random_image_product(productImages);
+    // }, {
+    //   scheduled: true,
+    //   timezone: "America/New_York"
+    // });
+
+    cron.schedule('00 11 * * *', () => {
       upload_random_image_product(productImages);
     }, {
       scheduled: true,
       timezone: "America/New_York"
     });
 
-    cron.schedule('00 09 * * *', () => {
-      upload_random_image_product(productImages);
-    }, {
-      scheduled: true,
-      timezone: "America/New_York"
-    });
+    // cron.schedule('00 13 * * *', () => {
+    //   upload_random_image_product(productImages);
+    // }, {
+    //   scheduled: true,
+    //   timezone: "America/New_York"
+    // });
 
-    cron.schedule('00 13 * * *', () => {
-      upload_random_image_product(productImages);
-    }, {
-      scheduled: true,
-      timezone: "America/New_York"
-    });
-
-    cron.schedule('00 17 * * *', () => {
+    cron.schedule('00 19 * * *', () => {
       upload_random_image_product(productImages);
     }, {
       scheduled: true,
