@@ -197,6 +197,7 @@ fs.readdir(__dirname + '/dads', function(err, files) {
       dadImages.push(f);
     });
 
+
     cron.schedule('00 15 * * *', () => {
       upload_random_image(dadImages)
     }, {
