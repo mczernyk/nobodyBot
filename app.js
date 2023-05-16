@@ -46,7 +46,15 @@ function random_from_array(dads){
   if (!usedDads.includes(dad.edition)){
     usedDads.push(dad.edition)
 
-    return dad
+
+    let newDad = {
+      name: dad.name,
+      edition: dad.edition,
+      image: dad.image
+    }
+
+    return newDad
+
   } else {
     if (usedDads.length === dads.length){
       usedDads = []
@@ -114,11 +122,20 @@ const upload_random_image = (dads) => {
   console.log('Opening an image...');
 
   var newDad = random_from_array(dads);
+
+  console.log('new Dad', newDad)
+
   var dad_path = path.join( __dirname, '/dads/' + newDad.image)
+
+  console.log('path', dad_path)
+
   var dad_text = `${newDad.name} \r\n\r\n mint your Dad at https://www.dadbro.xyz`
+
+
   var b64content = fs.readFileSync(dad_path, { encoding: 'base64' });
 
-  console.log('Uploading an image...');
+
+  console.log('Uploading an image Dad...');
 
   T.post('media/upload', { media_data: b64content }, function (err, data, response) {
     if (err){
@@ -198,7 +215,7 @@ fs.readdir(__dirname + '/dads', function(err, files) {
     });
 
 
-    cron.schedule('00 15 * * *', () => {
+    cron.schedule('0 15 * * *', () => {
       upload_random_image(dadImages)
     }, {
       scheduled: true,
