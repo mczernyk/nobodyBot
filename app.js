@@ -71,6 +71,9 @@ function upload_random_image_product(products){
   var prod_path = path.join( __dirname, '/products/' + product.image[0])
   var prod_path1 = path.join( __dirname, '/products/' + product.image[1])
 
+  console.log('path', prod_path)
+  console.log('path1', prod_path1)
+
   var prod_text = product.text
 
   var b64content = fs.readFileSync(prod_path, { encoding: 'base64' });
@@ -103,6 +106,7 @@ function upload_random_image_product(products){
             T.post('statuses/update', {
                 status: prod_text,
                 media_ids: new Array(bothImages)
+
             }, function(err, data, response){
                 if (err) {
                     console.log("An error has occurred during posting.");
@@ -129,7 +133,7 @@ const upload_random_image = (dads) => {
 
   console.log('path', dad_path)
 
-  var dad_text = `${newDad.name} \r\n\r\n mint your Dad at https://www.dadbro.xyz`
+  var dad_text = `${newDad.name}\r\n\r\nmint your Dad at https://www.dadbro.xyz`
 
 
   var b64content = fs.readFileSync(dad_path, { encoding: 'base64' });
@@ -143,22 +147,15 @@ const upload_random_image = (dads) => {
       console.log(err);
     }
     else {
-      console.log("dad_text", dad_text)
-      console.log("dad_image", dad_path)
       console.log('image uploaded!');
-      console.log('Now tweeting it...');
+      let mediaID = data.media_id_string
 
-      T.post('media/metadata.create', {
-        media_id: data.media_id_string,
-                alt_text: {
-                    text: newDad.name
-                }
-      }, (err, data, response) => {
-        console.log('tweeting')
+      console.log('Now tweeting it...');
 
         T.post('statuses/update', {
           status: dad_text,
-          media_ids: new Array(data.media_id_string)
+          media_ids: new Array(mediaID)
+
         }, function(err, data, response) {
             if (err){
               console.log('ERROR during posting.');
@@ -170,7 +167,7 @@ const upload_random_image = (dads) => {
             }
           }
         );
-      })
+
     }
   });
 }
